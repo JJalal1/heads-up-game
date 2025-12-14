@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}تحميل اللعبة{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="page-title">تحميل اللعبة</h1>
+    
+    <section class="section">
+        <h2>خطوات التحميل من Google Play</h2>
+        <ol class="download-steps">
+            <li>افتح تطبيق Google Play Store على هاتفك الأندرويد</li>
+            <li>اضغط على شريط البحث في أعلى الشاشة</li>
+            <li>اكتب "Head's Up" في خانة البحث</li>
+            <li>اختر التطبيق من نتائج البحث</li>
+            <li>اضغط على زر "تثبيت" (Install)</li>
+            <li>انتظر حتى يكتمل التحميل والتثبيت</li>
+            <li>افتح التطبيق واستمتع باللعب مع أصدقائك!</li>
+        </ol>
+    </section>
+
+    <section class="section download-section">
+        <h2>رابط التحميل المباشر</h2>
+        <p>اضغط على الزر أدناه للانتقال مباشرة إلى صفحة التطبيق على Google Play:</p>
+        <a href="https://play.google.com/store/apps/details?id=com.rommanapps.headsup" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="download-button">
+            تحميل من Google Play
+        </a>
+    </section>
+</div>
+{% endblock %}
